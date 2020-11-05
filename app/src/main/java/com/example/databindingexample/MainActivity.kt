@@ -24,8 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.name = binding.editTextTextPersonName
 
-        binding.editTextTextPersonName.doOnTextChanged { text, start, before, count ->
-            binding.invalidateAll()
-        }
+        binding.editTextTextPersonName.doOnTextChanged { text, start, before, count -> binding.invalidateAll() }
     }
 }
