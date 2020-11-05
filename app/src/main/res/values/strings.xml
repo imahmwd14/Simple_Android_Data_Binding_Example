@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DataBindingExample</string>
+    <string name="hint_please_start_typing_here">Please start typing here</string>
 </resources>
